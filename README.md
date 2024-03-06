@@ -2,36 +2,97 @@
 
 Inknote is a notes diary app that allows users to jot down their thoughts, ideas, and memories in a digital format. It provides a simple and intuitive interface for users to create, edit, and organize their notes.
 
-## Features
+## Frontend
 
-- **Date-based Entries:** Create entries for specific dates, similar to a traditional diary.
-- **Rich Text Formatting:** Format notes with different fonts, colors, and styles.
-- **Mood Tracking:** Track your mood or emotions for each entry.
-- **Photo Attachments:** Attach photos to your entries to capture moments visually.
-- **Location Tagging:** Tag entries with locations to create a map of your experiences.
-- **Privacy Settings:** Keep entries private or share them with select individuals.
-- **Search and Filter:** Easily find entries based on keywords, dates, or other criteria.
-- **Reminder Feature:** Set reminders to maintain a consistent diary habit.
-- **Export and Backup:** Export entries or back them up to ensure they are not lost.
+### Technologies Used:
 
-## Installation
+- HTML
+- CSS
+- JavaScript
+- Framework (e.g., React, Angular, Vue.js)
 
-To install Inknote, follow these steps:
+### Installation:
 
 1. Clone the repository: `git clone https://github.com/yourusername/inknote.git`
 2. Install dependencies: `npm install`
 3. Start the app: `npm start`
 
-## Usage
+## Backend
 
-- Create a new note: Click on the "New Note" button and start typing.
-- Edit a note: Click on a note to open it for editing.
-- Delete a note: Click on the delete icon next to a note.
-- Share a note: Click on the share icon to share a note with others.
+### Technologies Used:
 
-## Contributing
+- Python (Flask or Django)
+- Database (SQLite, PostgreSQL, MySQL)
 
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+### Installation:
+
+1. Install Python (if not already installed): [Python Installation Guide](https://www.python.org/downloads/)
+2. Install Flask: `pip install Flask`
+3. Install Flask extensions (if using): `pip install flask-extension-name`
+
+## Web Server
+
+### Technologies Used:
+
+- Nginx or Apache
+
+### Installation:
+
+1. Install Nginx or Apache: [Nginx Installation Guide](https://nginx.org/en/docs/install.html), [Apache Installation Guide](https://httpd.apache.org/docs/current/install.html)
+
+## Deployment
+
+### Technologies Used:
+
+- AWS EC2 instance for hosting the web server and application
+- AWS RDS for hosting the database
+
+### Instructions:
+
+1. Sign in to your AWS account (or create one if you don't have one): [AWS Console](https://aws.amazon.com/console/)
+2. Launch an EC2 instance: [EC2 Instance Launch Wizard](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
+3. Set up RDS: [Amazon RDS Getting Started](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.html)
+
+## Authentication
+
+### Technologies Used:
+
+- Token-based authentication (e.g., JWT)
+
+### Installation:
+
+1. Install JWT: `npm install jsonwebtoken`
+
+## Storage
+
+### Technologies Used:
+
+- Amazon S3 for storing user-uploaded files (e.g., photos attached to notes)
+
+### Instructions:
+
+1. Sign in to your AWS account (or create one if you don't have one): [AWS Console](https://aws.amazon.com/console/)
+2. Set up Amazon S3: [Amazon S3 Getting Started](https://docs.aws.amazon.com/AmazonS3/latest/gsg/SigningUpforS3.html)
+
+## CI/CD
+
+### Technologies Used:
+
+- Continuous integration and deployment pipeline (e.g., GitHub Actions, AWS CodePipeline)
+
+### Instructions:
+
+- Set up CI/CD pipeline using GitHub Actions or AWS CodePipeline based on your preference and requirements.
+
+## Monitoring
+
+### Technologies Used:
+
+- AWS CloudWatch for monitoring application and server metrics
+
+### Instructions:
+
+1. Set up AWS CloudWatch: [AWS CloudWatch Getting Started](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html)
 
 ## License
 
